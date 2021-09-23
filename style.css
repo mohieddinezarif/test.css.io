@@ -85,3 +85,7 @@ table tr td {
 	background-color: #000000 !important;
     color: #ffffff !important;
 }
+
+.header-title h1 {
+	display: none !important;
+}
