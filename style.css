@@ -10,3 +10,7 @@ body {
 .header-title .arrow-prev {
 	z-index: 99999 !important;
 }
+
+.sub-header-title {
+	background-color: #808080 !important;
+}
