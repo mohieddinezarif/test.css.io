@@ -24,3 +24,7 @@ body {
 .active-phase span {
 	color: #ffffff;
 }
+
+.block-spacer {
+	background-color: none !important;
+}
