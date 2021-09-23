@@ -5,6 +5,7 @@ body {
 }
 .header-title {
 	background-color: #FF3802;
+	border: 0;
 }
 
 .header-title .arrow-prev {
@@ -13,4 +14,5 @@ body {
 
 .sub-header-title {
 	background-color: #808080 !important;
+	border: 0;
 }
