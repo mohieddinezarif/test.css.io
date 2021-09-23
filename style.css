@@ -17,6 +17,10 @@ body {
 }
 
 .sub-header-title {
-	background-color: #808080 !important;
+	background-color: #212121 !important;
 	border: 0;
+}
+
+.active-phase span {
+	color: #ffffff;
 }
