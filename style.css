@@ -47,3 +47,7 @@ table tr td {
  table.zebra tr {
     background-color: #000000 !important;
 }
+
+.block-header {
+	background: #404445;
+}
