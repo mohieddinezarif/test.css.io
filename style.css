@@ -26,5 +26,6 @@ body {
 }
 
 .block-spacer {
-	background-color: none !important;
+	background: none !important;
+	border: 0 !important;
 }
