@@ -52,3 +52,23 @@ table tr td {
 	background: #404445 !important;
 	color: #ffffff !important;
 }
+
+.tab-wrapper {
+	background: #000;
+	border-bottom: 0 !important;
+}
+
+.tab-wrapper li.tab {
+	background: #000;
+    border: 0;
+    color: #fff;
+}
+
+.tab-wrapper li.tab a {
+	text-shadow: none;
+    color: #fff;
+}
+
+.tab-wrapper li.tab.active {
+	border-bottom: 3px solid #FF3802;
+}
