@@ -85,3 +85,6 @@ table tr td {
 	background-color: #000000 !important;
     color: #ffffff !important;
 }
+.header-title .arrow-prev {
+    position: relative !important;
+}
