@@ -6,3 +6,7 @@ body {
 .header-title {
 	background-color: #FF3802;
 }
+
+.header-title .arrow-prev {
+	z-index: 99999 !important;
+}
