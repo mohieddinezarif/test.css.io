@@ -72,3 +72,11 @@ table tr td {
 .tab-wrapper li.tab.active {
 	border-bottom: 3px solid #FF3802 !important;
 }
+
+.match-timeline {
+	background: #000000 !important;
+}
+
+.match-timeline .club-name {
+	color: #ffffff !important;
+}
