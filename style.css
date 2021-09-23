@@ -80,3 +80,8 @@ table tr td {
 .match-timeline .club-name {
 	color: #ffffff !important;
 }
+
+.lineup .team-info {
+	background-color: #000000 !important;
+    color: #ffffff !important;
+}
