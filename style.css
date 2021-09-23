@@ -45,5 +45,5 @@ table tr td {
 }
 
 table.zebra tr:nth-child(2n) {
-    background-color: #333;
+    background-color: #333333 !important;
 }
