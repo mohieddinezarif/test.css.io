@@ -24,6 +24,7 @@ table tr th {
 .sub-header-title, .sub-header-block {
 	background-color: #212121 !important;
 	border: 0;
+	color: #FF3802 !important;
 }
 
 .active-phase span {
