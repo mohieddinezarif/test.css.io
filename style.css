@@ -2,7 +2,86 @@ body {
 	padding: 0;
 	margin: 0 !important;
 	background-color: #000;
+	color: #ffffff;
 }
 .header-title {
 	background-color: #FF3802;
+	border: 0;
+}
+
+table tr th {
+	color: #FF3802;
+}
+
+.phase-header {
+	border-bottom: 0 !important;
+}
+
+.header-title .arrow-prev {
+	z-index: 99999 !important;
+}
+
+.sub-header-title, .sub-header-block {
+	background-color: #212121 !important;
+	border: 0;
+}
+
+.sub-header-title {
+	color: #ffffff !important;
+}
+
+.active-phase span {
+	color: #ffffff;
+}
+
+.block-spacer {
+	background: #000 !important;
+	border: 0 !important;
+	height: 0 !important;
+}
+
+table tr td {
+	color: #ffffff !important;
+ }
+
+ table.zebra tr {
+    background-color: #000000 !important;
+}
+
+.block-header {
+	background: #404445 !important;
+	color: #ffffff !important;
+}
+
+.tab-wrapper {
+	background: #000000 !important;
+	border-bottom: 0 !important;
+}
+
+.tab-wrapper li.tab {
+	background: #000000 !important;
+    border: 0 !important;
+    color: #ffffff !important;
+}
+
+.tab-wrapper li.tab a {
+	text-shadow: none !important;
+    color: #ffffff !important;
+}
+
+.tab-wrapper li.tab.active {
+	border-bottom: 3px solid #FF3802 !important;
+}
+
+.match-timeline {
+	background: #000000 !important;
+}
+
+.match-timeline .club-name {
+	color: #ffffff !important;
+}
+
+.lineup .team-info {
+	background-color: #000000 !important;
+    color: #ffffff !important;
 }
