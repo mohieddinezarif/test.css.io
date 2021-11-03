@@ -10,22 +10,22 @@ body {
 }
 
 
-.nav-tabs {
+div.widget-matchdetail__navtab-container__navtab-top-left .nav-tabs {
 	background: #000000 !important;
 	border-bottom: 0 !important;
 }
 
-.nav-tabs li.tab {
+div.widget-matchdetail__navtab-container__navtab-top-left .nav-tabs li.tab {
 	background: #000000 !important;
     border: 0 !important;
     color: #ffffff !important;
 }
 
-.nav-tabs li.tab a {
+div.widget-matchdetail__navtab-container__navtab-top-left .nav-tabs li.tab a {
 	text-shadow: none !important;
     color: #ffffff !important;
 }
 
-.nav-tabs li.tab.active {
+div.widget-matchdetail__navtab-container__navtab-top-left .nav-tabs li.tab.active {
 	border-bottom: 3px solid #FF3802 !important;
 }
