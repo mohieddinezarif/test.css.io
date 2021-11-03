@@ -4,3 +4,7 @@ body {
 	background-color: #000 !important;
 	color: #ffffff !important;
 }
+
+.color__background--primary {
+	background-color: #FF3802 !important;
+}
