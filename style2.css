@@ -29,3 +29,7 @@ div.widget-matchdetail__navtab-container__navtab-top-left .nav-tabs li.tab a {
 div.widget-matchdetail__navtab-container__navtab-top-left .nav-tabs li.tab.active {
 	border-bottom: 3px solid #FF3802 !important;
 }
+
+table .color__text {
+	color: #ffffff !important;
+}
