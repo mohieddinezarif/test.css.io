@@ -10,22 +10,22 @@ body {
 }
 
 
-.tablist {
+.nav-tabs {
 	background: #000000 !important;
 	border-bottom: 0 !important;
 }
 
-.tablist li.tab {
+.nav-tabs li.tab {
 	background: #000000 !important;
     border: 0 !important;
     color: #ffffff !important;
 }
 
-.tablist li.tab a {
+.nav-tabs li.tab a {
 	text-shadow: none !important;
     color: #ffffff !important;
 }
 
-.tablist li.tab.active {
+.nav-tabs li.tab.active {
 	border-bottom: 3px solid #FF3802 !important;
 }
