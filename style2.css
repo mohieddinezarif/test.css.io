@@ -33,3 +33,8 @@ div.widget-matchdetail__navtab-container__navtab-top-left .nav-tabs li.tab.activ
 table .color__text {
 	color: #ffffff !important;
 }
+
+.widget-sportstandings .dynamic-table__head__row__cell, .widget-sportstandings .dynamic-table__body__row__cell {
+	background-color: #000000 !important;
+	color: #ffffff !important;
+}
