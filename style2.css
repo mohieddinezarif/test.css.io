@@ -51,10 +51,12 @@ table thead tr th {
 	display: none !important;
 }
 
-table tbody tr {
+table tbody tr,
+table.dynamic-table tbody tr td {
     background-color: #000000 !important;
 }
 
-table tbody tr:nth-child(2n) {
+table tbody tr:nth-child(2n),
+table.dynamic-table tbody tr:nth-child(2n) td {
     background-color: #333333 !important;
 }
