@@ -50,3 +50,11 @@ table thead tr th {
 .widget-sportstandings__aligned-tables .white-header::after {
 	display: none !important;
 }
+
+table tbody tr {
+    background-color: #000000 !important;
+}
+
+table tbody tr:nth-child(2n) {
+    background-color: #333333 !important;
+}
