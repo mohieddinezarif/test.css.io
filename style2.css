@@ -42,3 +42,6 @@ table .color__text {
 	color: #ffffff !important;
 }
 
+table thead tr th {
+	background-color: #FF3802 !important;
+}
