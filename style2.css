@@ -46,3 +46,7 @@ table thead tr th {
 	background-color: #FF3802 !important;
 	color: #FFF !important;
 }
+
+.widget-sportstandings__aligned-tables .white-header::after {
+	display: none !important;
+}
