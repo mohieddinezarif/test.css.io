@@ -36,7 +36,7 @@ table .color__text {
 
 .widget-sportstandings .dynamic-table__head__row__cell, 
 .widget-sportstandings .dynamic-table__body__row__cell,
-.matchdetail-person-statistics__statistics__table .dynamic-table__head__row__cell, .matchdetail-person-statistics__statistics__table .dynamic-table__body__row__cell
+.matchdetail-person-statistics__statistics__table .dynamic-table__body__row__cell
 {
 	background-color: #000000 !important;
 	color: #ffffff !important;
@@ -44,4 +44,5 @@ table .color__text {
 
 table thead tr th {
 	background-color: #FF3802 !important;
+	color: #FFF !important;
 }
