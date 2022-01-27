@@ -4,3 +4,8 @@ body {
 	background-color: #000;
 	color: #FFFFFF !important;
 }
+
+.event-container__header--athlete-header, .event-container__header--athlete-header .event-container__header {
+		background-color: #000;
+	color: #FFFFFF !important;
+}
