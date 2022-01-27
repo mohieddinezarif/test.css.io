@@ -19,3 +19,7 @@ body {
 	background-color: #000000 !important;
 	color: #FFFFFF !important;
 }
+.selected-day__date__toggle-icon,
+.selected-day__date__toggle-icon.color__fill {
+	color: #FFFFFF !important;
+}
