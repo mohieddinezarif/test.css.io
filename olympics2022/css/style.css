@@ -1,56 +1,261 @@
+/************************************************** 
+ * ********* DEFAULT WIDGET BODY COLORS/FONTS *****
+ * ************************************************ 
+ */ 
 body {
-	padding: 0;
-	margin: 0 !important;
-	background-color: #000000 !important;
-	color: #FFFFFF !important;
+	/* DEFAULT BACKGROUND COLOR -- SHOULD BE THE SAME AS .color__background
+	(DEFINED IN DEFAULT COLORS) */
+	background-color: #000000;
+	/* DEFAULT TEXT COLOR -- SHOULD BE THE SAME AS .color__text (DEFINED IN DEFAULT
+	COLORS) */
+	color: #ffffff;
+	/* DEFAULT FONT FAMILY */ 
+	font-family: 'Helvetica', sans-serif;
 }
 
-.event-container__header--athlete-header, .event-container__header--athlete-header .event-container__header {
-	background-color: #000000 !important;
-	color: #FFFFFF !important;
-	border-bottom: 1px solid #ffffff;
+/**************************************************
+****** DEFAULT THEME COLOR (USED IN HEADERS) ******
+**************************************************/
+/* DEFAULT THEME COLOR - USED AS BACKGROUND ON HEADERS */ /* MARKED AS (1) IN THE SCREENSHOT */ .color__background--primary {
+	background-color: #101f4a; 
 }
 
-.color__fill, .color__text {
-	color: #FFFFFF !important;
+/**************************************************
+**************** LIGHT THEME COLORS ***************
+**************************************************/
+/* LIGHT THEME TEXT COLOR, USED AS COLOR FOR LINKS */ /* MARKED AS (2) IN THE SCREENSHOT */ .color__text--primary--light {
+	color: #6495ba; 
 }
+/* LIGHT THEME BACKGROUND COLOR, USED TO SHOW IF FILTERS ARE ACTIVE WHEN ADDITIONAL FILTERS ARE HIDDEN IN SCHEDULE DAY PER DAY */
+/* MARKED AS (3) IN THE SCREENSHOT */
+.color__background--tertiary {
+	background-color: #6495ba; 
+}
+/* BACKGROUND COLOR USED FOR HIGHLIGHTING. CURRENTLY THE SAME AS .colo__background--tertiary, BUT WITH 0.1 OPACITY. */ 
+.color__background--tertiary--opacity--10 {
+	background-color: rgba(100, 149, 186, 0.1); 
+}
+/* LIGHT THEME FILL COLOR FOR SVG IMAGES, USED AS COLOR FOR SVG IMAGE ICONS IN LINKS */
+/* MARKED AS (2) IN THE SCREENSHOT */
+.color__fill--primary--light {
+	fill: #6495ba; 
+}
+
+/**************************************************
+****************** DEFAULT COLORS *****************
+**************************************************/
+/* DEFAULT TEXT COLOR, ALSO FOR HOVER ACTIVE FOCUSED AND VISITED STATUS */ 
+/* MARKED AS (4) IN THE SCREENSHOT */
+.color__text {
+   color: #ffffff; 
+}
+.color__text--hover:hover {
+   color: #ffffff; 
+}
+.color__text--active:active {
+     color: #ffffff; 
+ }
+
+.color__text--focus:focus {
+   color: #ffffff; 
+}
+
+.color__text--visited:visited {
+   color: #ffffff; 
+}
+/* DEFAULT BACKGROUND COLOR */
+/* MARKED AS (5) IN THE SCREENSHOT */ 
 
 .color__background {
-	background-color: #000000 !important;
-	color: #FFFFFF !important;
-}
-.selected-day__date__toggle-icon,
-.selected-day__date__toggle-icon.color__fill {
-	color: #FFFFFF !important;
+   background-color: white; 
 }
 
-.color__background--primary {
-    background-color: #000;
-    border-bottom: 1px solid #ffffff;
+/* DEFAULT BORDER COLOR */
+/* MARKED AS (6) IN THE SCREENSHOT */ 
+.color__border {
+   border-color: #e2e5e9; 
 }
+/* DEFAULT FILL COLOR FOR SVG (SAME AS DEFAULT TEXT COLOR) */ /* MARKED AS (4) IN THE SCREENSHOT */
+.color__fill {
+   fill: #ffffff; 
+}
+/**************************************************
+************ DEFAULT ALTERNATIVE COLORS ***********
+**************************************************/
+/* DEFAULT ALTERNATIVE TEXT COLOR */ /* MARKED AS (7) IN THE SCREENSHOT */ 
+.color__text--secondary {
+   color: #858f9a; 
+}
+.color__text--secondary--hover:hover {
+   color: #858f9a; 
+}
+.color__text--secondary--active:active {
+   color: #858f9a; 
+}
+.color__text--secondary--focus:focus {
+   color: #858f9a; 
+}
+.color__text--secondary--visited:visited {
+   color: #858f9a; 
+}
+
+/* DEFAULT ALTERNATIVE BACKGROUND COLOR */ 
+/* MARKED AS (8) IN THE SCREENSHOT */ 
 
 .color__background--secondary {
-    background-color: #333333 !important;
+   background-color: #f2f2f3; 
+}
+/* DEFAULT ALTERNATIVE BORDER COLOR */
+.color__border--secondary {
+   border-color: #d6dadf; 
+}
+/* DEFAULT ALTERNATIVE FILL COLOR (SAME AS DEFAULT ALTERNATIVE TEXT COLOR) */
+ /* MARKED AS (7) IN THE SCREENSHOT */
+.color__fill--secondary {
+
+     fill: #858f9a; 
+ }
+/**************************************************
+*************** DEFAULT MEDAL COLORS **************
+**************************************************/
+/* WHEN USED AS A BACKGROUND COLOR */
+.color__background--gold {
+   background-color: #f0c94b; 
 }
 
-.widget-eventstandings .dynamic-table__head__row__cell {
-	 background-color: #000000 !important;
-    color: #ffffff !important;
+.color__background--silver {
+   background-color: #b2bbc5; 
+}
+.color__background--bronze {
+   background-color: #d6a96c; 
+}
+/* WHEN USED AS A BORDER COLOR */
+.color__border--gold {
+   border-color: #f0c94b; 
 }
 
-.widget-eventstandings .dynamic-table__head__row__cell, .widget-eventstandings .dynamic-table__body__row__cell {
-	background-color: #000000 !important;
-    color: #ffffff !important;
+.color__border--silver {
+   border-color: #b2bbc5; 
 }
 
-.widget-eventstandings .white-header {
-	text-align: center;
+.color__border--bronze {
+   border-color: #d6a96c; 
+}
+/* WHEN USED AS A FILL COLOR ON AN SVG IMAGE */
+.color__fill--gold {
+   fill: #f0c94b; 
+}
+.color__fill--silver {
+   fill: #b2bbc5; 
+}
+.color__fill--bronze {
+   fill: #d6a96c; 
+}
+/**************************************************
+********** DEFAULT CALL TO ACTION COLORS **********
+**************************************************/
+/* WHEN USED AS A TEXT COLOR, CURRENTLY USED AS COLORS FOR LIVE (cta) AND FINISHED (cta--secondary) BUTTONS */
+/* MARKED AS (9) IN THE SCREENSHOT */
+
+.color__text--cta {
+color: #ff0042; 
+}
+/* CURRENTLY NOT IN THE SCREENSHOT. WE USE A GREEN COLOR RIGHT NOW. */ 
+.color__text--cta--secondary {
+   color: #35c29b; 
+}
+/* WHEN USED AS A BORDER COLOR, CURRENTLY USED AS COLORS FOR LIVE (cta) AND
+FINISHED (cta--secondary) BUTTONS */
+/* MARKED AS (9) IN THE SCREENSHOT */
+
+.color__border--cta {
+   border-color: #ff0042; 
+}
+/* CURRENTLY NOT IN THE SCREENSHOT. WE USE A GREEN COLOR RIGHT NOW. */
+.color__border--cta--secondary {
+   border-color: #35c29b; 
+}
+/* WHEN USED AS A FILL COLOR ON AN SVG IMAGE, CURRENTLY USED AS COLORS FOR LIVE (cta) AND FINISHED (cta--secondary) BUTTONS */
+/* MARKED AS (9) IN THE SCREENSHOT */
+
+.color__fill--cta {
+fill: #ff0042; 
+}
+/* CURRENTLY NOT IN THE SCREENSHOT. WE USE A GREEN COLOR RIGHT NOW. */ 
+
+.color__fill--cta--secondary {
+   fill: #35c29b; 
+}
+/**************************************************
+*********** DEFAULT LIGHT (WHITE) COLORS **********
+**************************************************/
+/* LIGHT (WHITE) TEXT COLOR, MAINLY USED AS TEXT COLOR FOR (THEME COLOR STYLED) HEADERS */
+/* MARKED AS (10) IN THE SCREENSHOT */
+.color__text--light {
+   color: white; 
 }
 
-.dynamic-table__body__row__cell.imageparticipant-column .image-participant__participant {
-	color: #bfc0c1;
+/* LIGHT (WHITE) BORDER COLOR, MAINLY USED AS A SPACER COLOR IN BETWEEN MULTIPLE HEADERS. */
+.color__border--light {
+   border-color: white; 
 }
 
-.dynamic-table--fixed .fixed-column--last:after {
-	display: none !important;
+/* LIGHT (WHITE) FILL COLOR FOR SVG IMAGES. USED FOR SVG IMAGES SHOWN IN (THEME COLOR STYLED) HEADERS. */
+/* MARKED AS (10) IN THE SCREENSHOT */
+.color__fill--light {
+   fill: white; 
+}
+/**************************************************
+*********** DEFAULT DARK (BLACK) COLORS ***********
+**************************************************/
+/* DARK (BLACK) BACKGROUND COLOR, USED TO SHOW ACTIVE DATE IN SCHEDULE DAY PER DAY */
+.color__background--dark {
+background-color: #0a091c; 
+}
+/* DARK (BLACK) BORDER COLOR, USED AS BORDER COLOR TO SHOW ACTIVE PAGE IN MULTIPLE
+
+  WIDGETS. */
+.color__border--dark {
+   border-color: #0a091c; 
+}
+/**************************************************
+************ DEFAULT TRANSPARENT COLORS ***********
+**************************************************/
+/* WE HIGHLY RECOMMEND LEAVING THESE TRANSPARENT. */
+/* TRANSPARENT BACKGROUND COLOR, USED AS A BACKGROUND COLOR ON BUTTONS AND OTHER COMPONENTS WHICH SHOULD BE TRANSPARENT. */
+
+.color__background--transparent {
+   background-color: transparent; 
+}
+
+/* TRANSPARENT BORDER COLOR, USED AS A PLACEHOLDER ON INACTIVE BUTTONS AND MORE. */
+.color__border--transparent {
+   border-color: transparent; 
+}
+
+/**************************************************
+******************* OTHER COLORS ******************
+**************************************************/
+/* OTHER TEXT COLOR, USED TO SHOW "DISABLED" TEXT, BUT ALSO USED TO SHOW "LIVE" IN SCHEDULE DAY PER DAY SPORT HEADERS. */
+.color__text--tertiary {
+   color: #b2bbc5; 
+}
+/* THIS BORDER COLOR IS NOT USED ANYWHERE AS OF YET, BUT THE BEFORE AND AFTER COLOR IS USED. THIS BORDER COLOR MIGHT BE USED IN THE FUTURE. */ 
+.color__border--secondary--light {
+   border-color: #b2bbc5; }
+
+/* THESE BORDER COLORS ARE USED TO DRAW THE LINES IN THE BRACKET WIDGET. */
+.color__border--secondary--light--before::before {
+   border-color: #b2bbc5; 
+}
+.color__border--secondary--light--after::after {
+   border-color: #b2bbc5; 
+}
+/* THIS BORDER IS USED AS A 2ND ALTERNATIVE TO THE ALTERNATIVE BORDER COLOR. */
+.color__border--secondary--dark {
+   border-color: #e2e5e9; 
+}
+/* THIS BORDER COLOR IS USED TO SHOW ACTIVE STATES ON BUTTONS. */
+.color__border--tertiary {
+	border-color: #858f9a; 
 }
