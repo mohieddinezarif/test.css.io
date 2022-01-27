@@ -29,6 +29,10 @@ body {
     border-bottom: 1px solid #ffffff;
 }
 
+.color__background--secondary {
+    background-color: #333333 !important;
+}
+
 .widget-eventstandings .dynamic-table__head__row__cell {
 	 background-color: #000000 !important;
     color: #ffffff !important;
