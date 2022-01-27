@@ -46,3 +46,7 @@ body {
 .dynamic-table__body__row__cell.imageparticipant-column .image-participant__participant {
 	color: #bfc0c1;
 }
+
+.dynamic-table--fixed .fixed-column--last:after {
+	display: none !important;
+}
