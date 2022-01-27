@@ -32,10 +32,17 @@ body {
 .widget-eventstandings .dynamic-table__head__row__cell {
 	 background-color: #000000 !important;
     color: #ffffff !important;
-    border-top: 1px solid #ffffff !important;
 }
 
 .widget-eventstandings .dynamic-table__head__row__cell, .widget-eventstandings .dynamic-table__body__row__cell {
 	background-color: #000000 !important;
     color: #ffffff !important;
+}
+
+.widget-eventstandings .white-header {
+	text-align: center;
+}
+
+.dynamic-table__body__row__cell.imageparticipant-column .image-participant__participant {
+	color: #bfc0c1;
 }
