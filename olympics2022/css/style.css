@@ -23,3 +23,8 @@ body {
 .selected-day__date__toggle-icon.color__fill {
 	color: #FFFFFF !important;
 }
+
+.color__background--primary {
+    background-color: #000;
+    border-bottom: 1px solid #fff;
+}
