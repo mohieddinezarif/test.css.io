@@ -294,3 +294,9 @@ tbody .color__border {
 	border-color: #000000;
 	border: 0 none !important;
 }
+
+.widget-teamroster__squad__member,
+.widget-athleteprofile__info {
+	    background-color: #000;
+    border: 1px solid #fff;
+}
