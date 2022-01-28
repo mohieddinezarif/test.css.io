@@ -109,7 +109,9 @@ body {
 /* MARKED AS (8) IN THE SCREENSHOT */ 
 
 .color__background--secondary {
-   background-color: #333333; 
+   background-color: #e1e1e1;
+   border-top: 1px solid #eee;
+   border-bottom: 1px solid #eee; 
 }
 /* DEFAULT ALTERNATIVE BORDER COLOR */
 .color__border--secondary {
@@ -264,4 +266,28 @@ background-color: #0a091c;
 /* THIS BORDER COLOR IS USED TO SHOW ACTIVE STATES ON BUTTONS. */
 .color__border--tertiary {
 	border-color: #858f9a; 
+}
+
+
+/* custom */
+.widget-eventstandings .dynamic-table__head__row__cell {
+	 background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+.widget-eventstandings .dynamic-table__head__row__cell, .widget-eventstandings .dynamic-table__body__row__cell {
+	background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+.widget-eventstandings .white-header {
+	text-align: center;
+}
+
+.dynamic-table__body__row__cell.imageparticipant-column .image-participant__participant {
+	color: #bfc0c1;
+}
+
+.dynamic-table--fixed .fixed-column--last:after {
+	display: none !important;
 }
