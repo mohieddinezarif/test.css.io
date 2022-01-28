@@ -90,19 +90,19 @@ body {
 
 /* MARKED AS (7) IN THE SCREENSHOT */ 
 .color__text--secondary {
-   color: #858f9a; 
+   color: #0c0c0c; 
 }
 .color__text--secondary--hover:hover {
-   color: #858f9a; 
+   color: #0c0c0c; 
 }
 .color__text--secondary--active:active {
-   color: #858f9a; 
+   color: #0c0c0c; 
 }
 .color__text--secondary--focus:focus {
-   color: #858f9a; 
+   color: #0c0c0c; 
 }
 .color__text--secondary--visited:visited {
-   color: #858f9a; 
+   color: #0c0c0c; 
 }
 
 /* DEFAULT ALTERNATIVE BACKGROUND COLOR */ 
@@ -119,7 +119,7 @@ body {
  /* MARKED AS (7) IN THE SCREENSHOT */
 .color__fill--secondary {
 
-     fill: #858f9a; 
+     fill: #0c0c0c; 
  }
 /**************************************************
 *************** DEFAULT MEDAL COLORS **************
