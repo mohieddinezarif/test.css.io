@@ -1,6 +1,6 @@
 /************************************************** 
  * ********* DEFAULT WIDGET BODY COLORS/FONTS *****
- * ************************************************ 
+ * ************************************************ 2,6, 8
  */ 
 body {
 	/* DEFAULT BACKGROUND COLOR -- SHOULD BE THE SAME AS .color__background
@@ -16,24 +16,27 @@ body {
 /**************************************************
 ****** DEFAULT THEME COLOR (USED IN HEADERS) ******
 **************************************************/
-/* DEFAULT THEME COLOR - USED AS BACKGROUND ON HEADERS */ /* MARKED AS (1) IN THE SCREENSHOT */ .color__background--primary {
-	background-color: #101f4a; 
+/* DEFAULT THEME COLOR - USED AS BACKGROUND ON HEADERS */ 
+/* MARKED AS (1) IN THE SCREENSHOT */ .color__background--primary {
+	background-color: #000000; 
 }
 
 /**************************************************
 **************** LIGHT THEME COLORS ***************
 **************************************************/
-/* LIGHT THEME TEXT COLOR, USED AS COLOR FOR LINKS */ /* MARKED AS (2) IN THE SCREENSHOT */ .color__text--primary--light {
+/* LIGHT THEME TEXT COLOR, USED AS COLOR FOR LINKS */ 
+/* MARKED AS (2) IN THE SCREENSHOT */ 
+.color__text--primary--light {
 	color: #6495ba; 
 }
 /* LIGHT THEME BACKGROUND COLOR, USED TO SHOW IF FILTERS ARE ACTIVE WHEN ADDITIONAL FILTERS ARE HIDDEN IN SCHEDULE DAY PER DAY */
 /* MARKED AS (3) IN THE SCREENSHOT */
 .color__background--tertiary {
-	background-color: #6495ba; 
+	background-color: #ffffff; 
 }
 /* BACKGROUND COLOR USED FOR HIGHLIGHTING. CURRENTLY THE SAME AS .colo__background--tertiary, BUT WITH 0.1 OPACITY. */ 
 .color__background--tertiary--opacity--10 {
-	background-color: rgba(100, 149, 186, 0.1); 
+	background-color: rgba(255, 255, 255, 0.1); 
 }
 /* LIGHT THEME FILL COLOR FOR SVG IMAGES, USED AS COLOR FOR SVG IMAGE ICONS IN LINKS */
 /* MARKED AS (2) IN THE SCREENSHOT */
@@ -67,7 +70,7 @@ body {
 /* MARKED AS (5) IN THE SCREENSHOT */ 
 
 .color__background {
-   background-color: white; 
+   background-color: #000000; 
 }
 
 /* DEFAULT BORDER COLOR */
@@ -75,14 +78,17 @@ body {
 .color__border {
    border-color: #e2e5e9; 
 }
-/* DEFAULT FILL COLOR FOR SVG (SAME AS DEFAULT TEXT COLOR) */ /* MARKED AS (4) IN THE SCREENSHOT */
+/* DEFAULT FILL COLOR FOR SVG (SAME AS DEFAULT TEXT COLOR) */ 
+/* MARKED AS (4) IN THE SCREENSHOT */
 .color__fill {
    fill: #ffffff; 
 }
 /**************************************************
 ************ DEFAULT ALTERNATIVE COLORS ***********
 **************************************************/
-/* DEFAULT ALTERNATIVE TEXT COLOR */ /* MARKED AS (7) IN THE SCREENSHOT */ 
+/* DEFAULT ALTERNATIVE TEXT COLOR */ 
+
+/* MARKED AS (7) IN THE SCREENSHOT */ 
 .color__text--secondary {
    color: #858f9a; 
 }
