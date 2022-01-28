@@ -27,7 +27,7 @@ body {
 /* LIGHT THEME TEXT COLOR, USED AS COLOR FOR LINKS */ 
 /* MARKED AS (2) IN THE SCREENSHOT */ 
 .color__text--primary--light {
-	color: #6495ba; 
+	color: #ff3803; 
 }
 /* LIGHT THEME BACKGROUND COLOR, USED TO SHOW IF FILTERS ARE ACTIVE WHEN ADDITIONAL FILTERS ARE HIDDEN IN SCHEDULE DAY PER DAY */
 /* MARKED AS (3) IN THE SCREENSHOT */
@@ -41,7 +41,7 @@ body {
 /* LIGHT THEME FILL COLOR FOR SVG IMAGES, USED AS COLOR FOR SVG IMAGE ICONS IN LINKS */
 /* MARKED AS (2) IN THE SCREENSHOT */
 .color__fill--primary--light {
-	fill: #6495ba; 
+	fill: #ff3803; 
 }
 
 /**************************************************
