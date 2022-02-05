@@ -133,6 +133,10 @@ body {
    fill: #858f9a; 
 }
 
+.results-detail-current-view--summer .results-detail-current-view__box-wrapper__current-box__player-info-wrapper__header, .results-detail-current-view--summer .results-detail-current-view__box-wrapper__leader-box__player-info-wrapper__header, .results-detail-current-view--summer .results-detail-current-view__box-wrapper__race-box__player-info-wrapper__header, .results-detail-current-view--winter .results-detail-current-view__box-wrapper__current-box__player-info-wrapper__header, .results-detail-current-view--winter .results-detail-current-view__box-wrapper__leader-box__player-info-wrapper__header, .results-detail-current-view--winter .results-detail-current-view__box-wrapper__race-box__player-info-wrapper__header {
+   color: #858f9a !important; 
+}
+
 .color__fill--cta--secondary {
    fill: #35c29b; 
 }
