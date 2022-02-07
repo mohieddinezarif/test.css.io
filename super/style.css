@@ -15,3 +15,7 @@ body {
 .matchdetail-person-statistics__statistics__table .dynamic-table__body__row__cell {
     background-color: #000000;
 }
+
+.dynamic-table__body__row__cell.imageparticipant-column .image-participant__participant {
+   color: #ffffff;
+}
