@@ -19,3 +19,9 @@ body {
 .dynamic-table__body__row__cell.imageparticipant-column .image-participant__participant {
    color: #ffffff;
 }
+
+.tab.tab__active { 
+    color: #fff;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 5px;
+ }
