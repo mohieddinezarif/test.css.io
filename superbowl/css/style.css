@@ -26,6 +26,10 @@ body {
     padding-bottom: 5px;
  }
 
+ul.matchdetail-person-statistics__switcher {
+   border-bottom: 0 !important;
+   padding-bottom: 0 !important;
+}
  ul.matchdetail-person-statistics__switcher .tab.tab__active { 
    color: #fff !important;
    background-color: #858f9a;
