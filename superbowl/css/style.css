@@ -33,7 +33,8 @@ body {
 
  .widget-sportstandings__aligned-tables .white-header:first-of-type::after,
  .widget-sportstandings__aligned-tables .white-header::after,
- .widget-sportstandings__aligned-tables__fixed::after {
+ .widget-sportstandings__aligned-tables__fixed::after,
+ .matchdetail-person-statistics__aligned-tables__fixed::after {
    display: none !important;
  }
 
