@@ -42,6 +42,6 @@ body {
    color: #000000 !important;
  }
 
- .color__background--secondary {
+ .color__background--secondary.widget-sportstandings__dropdown-filter {
    background-color: #000000;
  }
