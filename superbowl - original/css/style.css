@@ -1,0 +1,59 @@
+#mainContent {
+   margin: 0 !important;
+}
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: 'Helvetica', sans-serif;
+}
+
+.color__background--primary {
+   background-color: #000000;
+}
+
+.matchdetail-person-statistics__statistics__table .dynamic-table__head__row__cell,
+.matchdetail-person-statistics__statistics__table .dynamic-table__body__row__cell {
+    background-color: #000000;
+}
+
+.dynamic-table__body__row__cell.imageparticipant-column .image-participant__participant {
+   color: #ffffff;
+}
+
+.nav.nav-tabs .tab.tab__active { 
+    color: #fff;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 5px;
+ }
+
+ul.matchdetail-person-statistics__switcher .nav.nav-tabs .tab, 
+ul.matchdetail-person-statistics__switcher .nav.nav-tabs .tab.tab__active {
+   border-bottom: 0 !important;
+   padding-bottom: 0 !important;
+}
+ ul.matchdetail-person-statistics__switcher .tab.tab__active { 
+    color: #fff !important;
+    background-color: #858f9a;
+    border-bottom: 2px solid #858f9a !important;
+    padding-bottom: 0 !important;
+}
+
+.widget-sportstandings .dynamic-table__head__row__cell, .widget-sportstandings .dynamic-table__body__row__cell {
+   background-color: #000000 !important;
+   color: #ffffff !important;
+ }
+
+ .widget-sportstandings__aligned-tables .white-header:first-of-type::after,
+ .widget-sportstandings__aligned-tables .white-header::after,
+ .widget-sportstandings__aligned-tables__fixed::after,
+ .matchdetail-person-statistics__aligned-tables__fixed::after {
+   display: none !important;
+ }
+
+ .tab.active.tab--switcher-view {
+   color: #000000 !important;
+ }
+
+ .color__background--secondary.widget-sportstandings__dropdown-filter {
+   background-color: #000000;
+ }
