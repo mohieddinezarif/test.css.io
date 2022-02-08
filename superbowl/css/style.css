@@ -21,9 +21,8 @@ body {
 }
 
 .tab.tab__active { 
-    color: #fff;
-    border-bottom: 3px solid #ffffff;
-    padding-bottom: 5px;
+   color: #fff !important;
+   background-color: #858f9a;
  }
 
 .widget-sportstandings .dynamic-table__head__row__cell, .widget-sportstandings .dynamic-table__body__row__cell {
