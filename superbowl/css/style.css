@@ -32,9 +32,11 @@ ul.matchdetail-person-statistics__switcher .nav.nav-tabs .tab.tab__active {
    padding-bottom: 0 !important;
 }
  ul.matchdetail-person-statistics__switcher .tab.tab__active { 
-   color: #fff !important;
-   background-color: #858f9a;
- }
+    color: #fff !important;
+    background-color: #858f9a;
+    border-bottom: 2px solid #858f9a !important;
+    padding-bottom: 0 !important;
+}
 
 .widget-sportstandings .dynamic-table__head__row__cell, .widget-sportstandings .dynamic-table__body__row__cell {
    background-color: #000000 !important;
