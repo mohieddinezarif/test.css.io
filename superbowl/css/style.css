@@ -20,7 +20,7 @@ body {
    color: #ffffff;
 }
 
-.tab.tab__active { 
+.nav.nav-tabs .tab.tab__active { 
     color: #fff;
     border-bottom: 3px solid #ffffff;
     padding-bottom: 5px;
