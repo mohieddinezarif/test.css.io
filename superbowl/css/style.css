@@ -26,7 +26,8 @@ body {
     padding-bottom: 5px;
  }
 
-ul.matchdetail-person-statistics__switcher {
+ul.matchdetail-person-statistics__switcher .nav.nav-tabs .tab, 
+ul.matchdetail-person-statistics__switcher .nav.nav-tabs .tab.tab__active {
    border-bottom: 0 !important;
    padding-bottom: 0 !important;
 }
