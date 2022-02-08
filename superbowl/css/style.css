@@ -41,3 +41,7 @@ body {
  .tab.active.tab--switcher-view {
    color: #000000 !important;
  }
+
+ .color__background--secondary {
+   background-color: #000000;
+ }
