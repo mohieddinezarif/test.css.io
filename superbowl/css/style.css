@@ -1,0 +1,27 @@
+#mainContent {
+   margin: 0 !important;
+}
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: 'Helvetica', sans-serif;
+}
+
+.color__background--primary {
+   background-color: #000000;
+}
+
+.matchdetail-person-statistics__statistics__table .dynamic-table__head__row__cell,
+.matchdetail-person-statistics__statistics__table .dynamic-table__body__row__cell {
+    background-color: #000000;
+}
+
+.dynamic-table__body__row__cell.imageparticipant-column .image-participant__participant {
+   color: #ffffff;
+}
+
+.tab.tab__active { 
+    color: #fff;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 5px;
+ }
