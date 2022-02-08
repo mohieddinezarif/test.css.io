@@ -30,3 +30,11 @@ body {
    background-color: #000000 !important;
    color: #ffffff !important;
  }
+
+ .widget-sportstandings__aligned-tables .white-header:first-of-type::after {
+   display: none !important;
+ }
+
+ .tab.active.tab--switcher-view {
+   color: #000000 !important;
+ }
