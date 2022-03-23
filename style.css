@@ -97,6 +97,7 @@ table.zebra tr:nth-child(2n) {
     color: #ffffff !important;
 }
 
-table thead.fixed-header {
+table thead.fixed-header,
+.toplist-options {
 	background-color: #000000 !important;
 }
