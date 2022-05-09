@@ -29,7 +29,7 @@ table tr th {
 }
 
 .sub-header-title, .sub-header-block {
-	background-color: #212121 !important;
+	color: #bfc0c1 !important;
 	border: 0;
 }
 
@@ -38,7 +38,7 @@ table tr th {
 }
 
 .active-phase span {
-	color: #ffffff;
+	color: #bfc0c1;
 }
 
 .block-spacer {
@@ -48,7 +48,7 @@ table tr th {
 }
 
 table tr td {
-	color: #ffffff !important;
+	color: #bfc0c1 !important;
 	border-bottom: 0 !important;
  }
 
