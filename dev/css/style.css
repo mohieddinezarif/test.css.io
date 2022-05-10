@@ -123,6 +123,24 @@ table thead.fixed-header,
 .sprite--schedule-next-btn {
 	background-size: contain;
 }
-.referee-and-attendance-info {
+.referee-and-attendance-info,
+.first-leg-score {
 	background-color: #000000 !important;
 }
+
+.first-leg-score,
+.referee-and-attendance-info.first-leg-score-available {
+	border: 0 none;
+}
+.stats .stat-wrapper, .stat-pies .stat-wrapper {
+	border-bottom: 0 !important;
+}
+/*
+.stat-bar-a90 .stat-wrapper.border-top, .stat-bar-a90 .stat-wrapper.border-top:first-child {
+    border-top: 1px solid #e3e3e7;
+}
+
+.stats .stat-wrapper:first-child, .stat-pies .stat-wrapper:first-child {
+    border-bottom: 1px solid #e3e3e7;
+}
+*/
