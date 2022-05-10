@@ -104,3 +104,7 @@ table thead.fixed-header,
 .toplist-options {
 	background-color: #000000 !important;
 }
+
+.sprite--schedule-prev-btn {
+	background: url('../images/back.png') no-repeat scroll center center;
+}
