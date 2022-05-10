@@ -123,3 +123,6 @@ table thead.fixed-header,
 .sprite--schedule-next-btn {
 	background-size: contain;
 }
+.referee-and-attendance-info {
+	background-color: #000000 !important;
+}
