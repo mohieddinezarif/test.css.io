@@ -108,3 +108,12 @@ table thead.fixed-header,
 .sprite--schedule-prev-btn {
 	background: url('../images/back.png') no-repeat scroll center center;
 }
+
+.sprite--schedule-next-btn {
+	background: url('../images/next.png') no-repeat scroll center center;
+}
+
+.sprite--schedule-prev-btn, 
+.sprite--schedule-next-btn {
+	background-size: contain;
+}
