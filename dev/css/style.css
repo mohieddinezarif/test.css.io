@@ -67,6 +67,12 @@ table.zebra tr:nth-child(2n) {
 	color: #ffffff !important;
 }
 
+tr.th.block-header {
+	background: transparent !important;
+	text-align: center;
+	font-size: 12px;
+}
+
 .tab-wrapper {
 	background: #000000 !important;
 	border-bottom: 0 !important;
