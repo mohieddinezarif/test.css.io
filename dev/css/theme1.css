@@ -1,0 +1,156 @@
+body {
+  padding: 0;
+  margin: 0 !important;
+  background-color: #000;
+  color: #ffffff;
+}
+
+.header-title {
+  background-color: #FF3802;
+  border: 0;
+}
+
+table tr th {
+  color: #FF3802;
+  border-bottom: 0 !important;
+}
+
+.phase-header {
+  border-bottom: 0 !important;
+}
+
+.header-title .arrow-prev {
+  z-index: 99999 !important;
+  height: 50px !important;
+  width: 80px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+
+.sub-header-title, .sub-header-block {
+  color: #bfc0c1 !important;
+  background-color: #000000;
+  border: 0;
+}
+
+.sub-header-title {
+  color: #ffffff !important;
+}
+
+.active-phase span {
+  color: #bfc0c1;
+}
+
+.block-spacer {
+  background: #000 !important;
+  border: 0 !important;
+  height: 0 !important;
+}
+
+table tr td {
+  color: #bfc0c1 !important;
+  border-bottom: 0 !important;
+}
+
+table.zebra tr {
+  background-color: #000000 !important;
+}
+
+table.zebra tr:nth-child(2n) {
+  background-color: #333333 !important;
+}
+
+.block-header {
+  background: #404445 !important;
+  color: #ffffff !important;
+}
+
+tr th.block-header {
+  background: transparent !important;
+  text-align: center;
+  font-size: 12px;
+}
+
+.tab-wrapper {
+  background: #000000 !important;
+  border-bottom: 0 !important;
+}
+
+.tab-wrapper li.tab {
+  background: #000000 !important;
+  border: 0 !important;
+  color: #ffffff !important;
+}
+
+.tab-wrapper li.tab a {
+  text-shadow: none !important;
+  color: #ffffff !important;
+}
+
+.tab-wrapper li.tab.active {
+  border-bottom: 3px solid #FF3802 !important;
+}
+
+.match-timeline {
+  background: #000000 !important;
+}
+
+.match-timeline .club-name {
+  color: #ffffff !important;
+}
+
+.lineup .team-info {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+table thead.fixed-header,
+.toplist-options {
+  background-color: #000000 !important;
+}
+
+.sprite--schedule-prev-btn {
+  background: url("../images/back.png") no-repeat scroll center center;
+}
+
+.sprite--schedule-next-btn {
+  background: url("../images/next.png") no-repeat scroll center center;
+}
+
+.sprite--schedule-prev-btn,
+.sprite--schedule-next-btn {
+  background-size: contain;
+}
+
+.referee-and-attendance-info,
+.first-leg-score {
+  background-color: #000000 !important;
+}
+
+.first-leg-score,
+.referee-and-attendance-info.first-leg-score-available {
+  border: 0 none;
+}
+
+.stats .stat-wrapper, .stat-pies .stat-wrapper {
+  border-bottom: 0 !important;
+}
+
+.stat-wrapper {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+/*
+.stat-bar-a90 .stat-wrapper.border-top, .stat-bar-a90 .stat-wrapper.border-top:first-child {
+    border-top: 1px solid #e3e3e7;
+}
+
+.stats .stat-wrapper:first-child, .stat-pies .stat-wrapper:first-child {
+    border-bottom: 1px solid #e3e3e7;
+}
+*/
+
+/*# sourceMappingURL=theme1.css.map */
