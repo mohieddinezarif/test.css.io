@@ -6,13 +6,13 @@ body {
 }
 
 .header-title {
-  background-color: #FF3802;
+  background-color: #ca2a2f;
   color: #ffffff;
   border: 0;
 }
 
 table tr th {
-  color: #FF3802;
+  color: #ca2a2f;
   border-bottom: 0 !important;
 }
 
@@ -91,7 +91,7 @@ tr th.block-header {
 }
 
 .tab-wrapper li.tab.active {
-  border-bottom: 3px solid #FF3802 !important;
+  border-bottom: 3px solid #ca2a2f !important;
 }
 
 .match-timeline {
@@ -154,4 +154,4 @@ table thead.fixed-header,
 }
 */
 
-/*# sourceMappingURL=theme1.css.map */
+/*# sourceMappingURL=theme17.css.map */
