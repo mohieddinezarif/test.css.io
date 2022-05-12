@@ -1,151 +1,202 @@
 body {
-	padding: 0;
-	margin: 0 !important;
-	background-color: #000;
-	color: #ffffff;
+  padding: 0;
+  margin: 0 !important;
+  background-color: #000;
+  color: #ffffff;
 }
 
 .header-title {
-	background-color: $primary-color;
-	color: $text-color;
-	border: 0;
+  background-color: $primary-color; /* to be replaced by $primary-color */
+  color: $text-color; /* to be replaced by $text-color */
+  border: 0;
+}
+
+.lineup .list-items .list-item .coach {
+  color: $primary-color; /* to be replaced by $primary-color */
 }
 
 table tr th {
-	color: $primary-color;
-	border-bottom: 0 !important;
+  color: $primary-color; /* to be replaced by $primary-color */
+  border-bottom: 0 !important;
 }
 
 .phase-header {
-	border-bottom: 0 !important;
+  border-bottom: 0 !important;
+}
+
+a.standard-button {
+  background-color: $primary-color !important; /* to be replaced by $primary-color; */
+  color: $text-color !important; /* to be replaced by $text-color */
+  border: 0 none !important;
+  border-radius: 30px !important;
+  -moz-border-radius: 30px !important;
 }
 
 .header-title .arrow-prev {
-	z-index: 99999 !important;
-    height: 50px !important;
-    width: 80px !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    top: 0 !important;
-    left: 0 !important;
+  z-index: 99999 !important;
+  height: 50px !important;
+  width: 80px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  top: 0 !important;
+  left: 0 !important;
 }
 
 .sub-header-title, .sub-header-block {
-	color: #bfc0c1 !important;
-	background-color: #000000;
-	border: 0;
+  color: #bfc0c1 !important;
+  background-color: #000000;
+  border: 0;
 }
 
 .sub-header-title {
-	color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .active-phase span {
-	color: #bfc0c1;
+  color: #bfc0c1;
 }
 
 .block-spacer {
-	background: #000 !important;
-	border: 0 !important;
-	height: 0 !important;
+  background: #000 !important;
+  border: 0 !important;
+  height: 0 !important;
 }
 
 table tr td {
-	color: #bfc0c1 !important;
-	border-bottom: 0 !important;
- }
-
- table.zebra tr {
-    background-color: #000000 !important;
+  color: #bfc0c1 !important;
+  border-bottom: 0 !important;
 }
 
-table.zebra tr:nth-child(2n) {
-    background-color: #333333 !important;
+table.zebra tr {
+  background-color: #000000 !important;
 }
 
 .block-header {
-	background: #404445 !important;
-	color: #ffffff !important;
+  background: #404445 !important;
+  color: #ffffff !important;
 }
 
 tr th.block-header {
-	background: transparent !important;
-	text-align: center;
-	font-size: 12px;
+  background: transparent !important;
+  text-align: center;
+  font-size: 12px;
 }
 
 .tab-wrapper {
-	background: #000000 !important;
-	border-bottom: 0 !important;
+  background: #000000 !important;
+  border-bottom: 0 !important;
 }
 
 .tab-wrapper li.tab {
-	background: #000000 !important;
-    border: 0 !important;
-    color: #ffffff !important;
+  background: #000000 !important;
+  border: 0 !important;
+  color: #ffffff !important;
 }
 
 .tab-wrapper li.tab a {
-	text-shadow: none !important;
-    color: #ffffff !important;
+  text-shadow: none !important;
+  color: #ffffff !important;
 }
 
 .tab-wrapper li.tab.active {
-	border-bottom: 3px solid $primary-color !important;
+  border-bottom: 3px solid $primary-color !important; /* to be replaced by $primary-color */
 }
 
 .match-timeline {
-	background: #000000 !important;
+  background: #000000 !important;
 }
 
 .match-timeline .club-name {
-	color: #ffffff !important;
+  color: #ffffff !important;
 }
 
 .lineup .team-info {
-	background-color: #000000 !important;
-    color: #ffffff !important;
+  background-color: #000000 !important;
+  color: #ffffff !important;
 }
 
 table thead.fixed-header,
 .toplist-options {
-	background-color: #000000 !important;
+  background-color: #000000 !important;
 }
 
 .sprite--schedule-prev-btn {
-	background: url('../images/back.png') no-repeat scroll center center;
+  background: url("../images/back.png") no-repeat scroll center center;
 }
 
 .sprite--schedule-next-btn {
-	background: url('../images/next.png') no-repeat scroll center center;
+  background: url("../images/next.png") no-repeat scroll center center;
 }
 
-.sprite--schedule-prev-btn, 
+.sprite--schedule-prev-btn,
 .sprite--schedule-next-btn {
-	background-size: contain;
+  background-size: contain;
 }
+
 .referee-and-attendance-info,
 .first-leg-score {
-	background-color: #000000 !important;
+  background-color: #000000 !important;
+  border:  0 none !important;
+}
+
+.goalscorers tr:first-child td {
+  border: 0 none !important;
 }
 
 .first-leg-score,
 .referee-and-attendance-info.first-leg-score-available {
-	border: 0 none;
-}
-.stats .stat-wrapper, .stat-pies .stat-wrapper {
-	border-bottom: 0 !important;
-}
-.stat-wrapper {
-	padding-left: 10px !important;
-	padding-right: 10px !important;
-}
-/*
-.stat-bar-a90 .stat-wrapper.border-top, .stat-bar-a90 .stat-wrapper.border-top:first-child {
-    border-top: 1px solid #e3e3e7;
+  border: 0 none;
 }
 
-.stats .stat-wrapper:first-child, .stat-pies .stat-wrapper:first-child {
-    border-bottom: 1px solid #e3e3e7;
+.stats .stat-wrapper, .stat-pies .stat-wrapper {
+  border-bottom: 0 !important;
 }
-*/
+
+.stat-wrapper {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.tab-wrapper.two-tabs, .tab-wrapper.three-tabs, .tab-wrapper.four-tabs {
+  border:  0 none !important;
+}
+
+.stat-bar-a90 .stat-wrapper.border-top, .stat-bar-a90 .stat-wrapper.border-top:first-child,
+.stats .stat-wrapper:first-child, .stat-pies .stat-wrapper:first-child {
+    border-top: 0 none !important;
+}
+
+.lineup .team-info {
+  border-bottom: 0 !important;
+}
+.block-formations {
+  border-bottom: 0 !important;
+}
+.lineup .list-items .list-item {
+  border-bottom: 0 !important;
+}
+.lineup .team-info.home.vertical-line,
+.lineup .list-items.home.vertical-line {
+  border-right:  0 !important;
+}
+.button-wrapper {
+  background-color: #000000 !important;
+  border-bottom: 0 !important;
+}
+
+@media (min-width: 600px) {
+  .headtohead .one-half .team-form {
+      border-right: 0 !important;
+  }
+  .headtohead .one-half .standing {
+    border-left: 0 !important;
+  }
+}
+
+.team-form {
+  border-bottom: 0 !important;
+}
+
+.details .select-wrapper {
+  border-bottom: 0 !important;
+}

@@ -6,17 +6,21 @@ body {
 }
 
 .header-title {
-  background-color: #FF3802; /* to be replaced by $primary-color */
-  color: #ffffff; /* to be replaced by $text-color */
+  background-color: #FF3802;
+  /* to be replaced by $primary-color */
+  color: #ffffff;
+  /* to be replaced by $text-color */
   border: 0;
 }
 
 .lineup .list-items .list-item .coach {
-  color: #FF3802; /* to be replaced by $primary-color */
+  color: #FF3802;
+  /* to be replaced by $primary-color */
 }
 
 table tr th {
-  color: #FF3802; /* to be replaced by $primary-color */
+  color: #FF3802;
+  /* to be replaced by $primary-color */
   border-bottom: 0 !important;
 }
 
@@ -25,8 +29,10 @@ table tr th {
 }
 
 a.standard-button {
-  background-color: #FF3802 !important; /* to be replaced by $primary-color; */
-  color: #FFFFFF !important; /* to be replaced by $text-color */
+  background-color: #FF3802 !important;
+  /* to be replaced by $primary-color; */
+  color: #ffffff !important;
+  /* to be replaced by $text-color */
   border: 0 none !important;
   border-radius: 30px !important;
   -moz-border-radius: 30px !important;
@@ -99,7 +105,8 @@ tr th.block-header {
 }
 
 .tab-wrapper li.tab.active {
-  border-bottom: 3px solid #FF3802 !important; /* to be replaced by $primary-color */
+  border-bottom: 3px solid #FF3802 !important;
+  /* to be replaced by $primary-color */
 }
 
 .match-timeline {
@@ -136,7 +143,7 @@ table thead.fixed-header,
 .referee-and-attendance-info,
 .first-leg-score {
   background-color: #000000 !important;
-  border:  0 none !important;
+  border: 0 none !important;
 }
 
 .goalscorers tr:first-child td {
@@ -158,27 +165,31 @@ table thead.fixed-header,
 }
 
 .tab-wrapper.two-tabs, .tab-wrapper.three-tabs, .tab-wrapper.four-tabs {
-  border:  0 none !important;
+  border: 0 none !important;
 }
 
 .stat-bar-a90 .stat-wrapper.border-top, .stat-bar-a90 .stat-wrapper.border-top:first-child,
 .stats .stat-wrapper:first-child, .stat-pies .stat-wrapper:first-child {
-    border-top: 0 none !important;
+  border-top: 0 none !important;
 }
 
 .lineup .team-info {
   border-bottom: 0 !important;
 }
+
 .block-formations {
   border-bottom: 0 !important;
 }
+
 .lineup .list-items .list-item {
   border-bottom: 0 !important;
 }
+
 .lineup .team-info.home.vertical-line,
 .lineup .list-items.home.vertical-line {
-  border-right:  0 !important;
+  border-right: 0 !important;
 }
+
 .button-wrapper {
   background-color: #000000 !important;
   border-bottom: 0 !important;
@@ -186,13 +197,13 @@ table thead.fixed-header,
 
 @media (min-width: 600px) {
   .headtohead .one-half .team-form {
-      border-right: 0 !important;
+    border-right: 0 !important;
   }
+
   .headtohead .one-half .standing {
     border-left: 0 !important;
   }
 }
-
 .team-form {
   border-bottom: 0 !important;
 }
@@ -200,3 +211,5 @@ table thead.fixed-header,
 .details .select-wrapper {
   border-bottom: 0 !important;
 }
+
+/*# sourceMappingURL=theme1.css.map */
