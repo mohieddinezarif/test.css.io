@@ -6,22 +6,30 @@ body {
 }
 
 .header-title {
-  background-color: #006bb6;
   /* to be replaced by $primary-color */
-  color: #fdb927;
-  /* to be replaced by $text-color */
+  background-color: #006bb6;
   border: 0;
 }
 
+.header-title h1 {
+  /* to be replaced by $text-color */
+  color: #fdb927;
+}
+
 .lineup .list-items .list-item .coach {
-  color: #006bb6;
   /* to be replaced by $primary-color */
+  color: #006bb6;
 }
 
 table tr th {
-  color: #006bb6;
   /* to be replaced by $primary-color */
+  color: #006bb6;
   border-bottom: 0 !important;
+}
+
+select {
+  /* to be replaced by $primary-color */
+  color: #006bb6 !important;
 }
 
 .phase-header {
@@ -29,10 +37,10 @@ table tr th {
 }
 
 a.standard-button {
-  background-color: #006bb6 !important;
   /* to be replaced by $primary-color; */
-  color: #fdb927 !important;
+  background-color: #006bb6 !important;
   /* to be replaced by $text-color */
+  color: #fdb927 !important;
   border: 0 none !important;
   border-radius: 30px !important;
   -moz-border-radius: 30px !important;
@@ -105,8 +113,8 @@ tr th.block-header {
 }
 
 .tab-wrapper li.tab.active {
-  border-bottom: 3px solid #006bb6 !important;
   /* to be replaced by $primary-color */
+  border-bottom: 3px solid #006bb6 !important;
 }
 
 .match-timeline {
@@ -209,6 +217,11 @@ table thead.fixed-header,
 }
 
 .details .select-wrapper {
+  border-bottom: 0 !important;
+}
+
+.standing-options {
+  background: #000000 !important;
   border-bottom: 0 !important;
 }
 

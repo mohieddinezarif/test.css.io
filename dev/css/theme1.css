@@ -12,7 +12,7 @@ body {
 }
 
 .header-title h1 {
- /* to be replaced by $text-color */
+  /* to be replaced by $text-color */
   color: #ffffff;
 }
 
@@ -39,7 +39,6 @@ select {
 a.standard-button {
   /* to be replaced by $primary-color; */
   background-color: #FF3802 !important;
-  
   /* to be replaced by $text-color */
   color: #ffffff !important;
   border: 0 none !important;
@@ -225,3 +224,5 @@ table thead.fixed-header,
   background: #000000 !important;
   border-bottom: 0 !important;
 }
+
+/*# sourceMappingURL=theme1.css.map */
