@@ -108,12 +108,14 @@ tr th.block-header {
   color: #ffffff !important;
 }
 
-.tab-wrapper li.tab a {
+.tab-wrapper li.tab a,
+.nab.nav-tabs .tab.tab__inactive {
   text-shadow: none !important;
   color: #ffffff !important;
 }
 
-.tab-wrapper li.tab.active {
+.tab-wrapper li.tab.active,
+.nav.nav-tabs .tab.tab__active {
   /* to be replaced by $primary-color */
   border-bottom: 3px solid #FF3802 !important;
 }
@@ -453,4 +455,13 @@ tbody .color__border {
 .widget-sportstandings__aligned-tables__fixed::after,
 .widget-sportstandings__aligned-tables .white-header::after {
   background-color: #000000 !important;
+}
+
+.widget-sportstandings .dynamic-table__head__row__cell, .widget-sportstandings__aligned-tables__fixed::after, .widget-sportstandings__aligned-tables .white-header::after {
+  display: none !important;
+}
+
+.widget-sportstandings__switcher__event {
+  border: 0 none !important;
+  background: #000000 !important;
 }
