@@ -5,13 +5,15 @@ body {
   color: #ffffff;
 }
 
-.header-title {
+.header-title,
+.color__background--primary.header {
   /* to be replaced by $primary-color */
   background-color: #aacae7;
   border: 0;
 }
 
-.header-title h1 {
+.header-title h1,
+.color__background--primary.header {
   /* to be replaced by $text-color */
   color: #033164;
 }
@@ -108,12 +110,14 @@ tr th.block-header {
   color: #ffffff !important;
 }
 
-.tab-wrapper li.tab a {
+.tab-wrapper li.tab a,
+.nab.nav-tabs .tab.tab__inactive {
   text-shadow: none !important;
   color: #ffffff !important;
 }
 
-.tab-wrapper li.tab.active {
+.tab-wrapper li.tab.active,
+.nav.nav-tabs .tab.tab__active {
   /* to be replaced by $primary-color */
   border-bottom: 3px solid #aacae7 !important;
 }
@@ -224,6 +228,255 @@ table thead.fixed-header,
 .standing-options {
   background: #000000 !important;
   border-bottom: 0 !important;
+}
+
+/* GSW */
+.color__background--primary {
+  background-color: #000000;
+}
+
+.color__text--primary--light {
+  color: #ffffff;
+}
+
+.color__background--tertiary {
+  background-color: #ffffff;
+}
+
+.color__background--tertiary--opacity--10 {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.color__fill--primary--light {
+  fill: #ffffff;
+}
+
+.color__text {
+  color: #ffffff;
+}
+
+.color__text--hover:hover {
+  color: #ffffff;
+}
+
+.color__text--active:active {
+  color: #ffffff;
+}
+
+.color__text--focus:focus {
+  color: #ffffff;
+}
+
+.color__text--visited:visited {
+  color: #ffffff;
+}
+
+.color__background {
+  background-color: #000000;
+}
+
+.color__border {
+  border-color: #e2e5e9;
+}
+
+.color__fill {
+  fill: #ffffff;
+}
+
+.color__text--secondary {
+  color: #858f9a;
+}
+
+.color__text--secondary--hover:hover {
+  color: #858f9a;
+}
+
+.color__text--secondary--active:active {
+  color: #858f9a;
+}
+
+.color__text--secondary--focus:focus {
+  color: #858f9a;
+}
+
+.color__text--secondary--visited:visited {
+  color: #858f9a;
+}
+
+.color__background--secondary {
+  background-color: #0c0c0c;
+}
+
+.color__border--secondary {
+  border-color: #d6dadf;
+}
+
+.color__fill--secondary {
+  fill: #858f9a;
+}
+
+.color__background--gold {
+  background-color: #f0c94b;
+}
+
+.color__background--silver {
+  background-color: #b2bbc5;
+}
+
+.color__background--bronze {
+  background-color: #d6a96c;
+}
+
+.color__border--gold {
+  border-color: #f0c94b;
+}
+
+.color__border--silver {
+  border-color: #b2bbc5;
+}
+
+.color__border--bronze {
+  border-color: #d6a96c;
+}
+
+.color__fill--gold {
+  fill: #f0c94b;
+}
+
+.color__fill--silver {
+  fill: #b2bbc5;
+}
+
+.color__fill--bronze {
+  fill: #d6a96c;
+}
+
+.color__text--cta {
+  color: #858f9a;
+}
+
+.color__text--cta--secondary {
+  color: #35c29b;
+}
+
+.color__border--cta {
+  border-color: #858f9a;
+}
+
+.color__border--cta--secondary {
+  border-color: #35c29b;
+}
+
+.color__fill--cta {
+  fill: #858f9a;
+}
+
+.results-detail-current-view--summer .results-detail-current-view__box-wrapper__current-box__player-info-wrapper__header, .results-detail-current-view--summer .results-detail-current-view__box-wrapper__leader-box__player-info-wrapper__header, .results-detail-current-view--summer .results-detail-current-view__box-wrapper__race-box__player-info-wrapper__header, .results-detail-current-view--winter .results-detail-current-view__box-wrapper__current-box__player-info-wrapper__header, .results-detail-current-view--winter .results-detail-current-view__box-wrapper__leader-box__player-info-wrapper__header, .results-detail-current-view--winter .results-detail-current-view__box-wrapper__race-box__player-info-wrapper__header {
+  color: #858f9a !important;
+}
+
+.color__fill--cta--secondary {
+  fill: #35c29b;
+}
+
+.color__text--light {
+  color: white;
+}
+
+.color__border--light {
+  border-color: white;
+}
+
+.color__fill--light {
+  fill: white;
+}
+
+.color__background--dark {
+  background-color: #0a091c;
+}
+
+.color__border--dark {
+  border-color: #0a091c;
+}
+
+.color__background--transparent {
+  background-color: transparent;
+}
+
+.color__border--transparent {
+  border-color: transparent;
+}
+
+.color__text--tertiary {
+  color: #b2bbc5;
+}
+
+.color__border--secondary--light {
+  border-color: #b2bbc5;
+}
+
+.color__border--secondary--light--before::before {
+  border-color: #b2bbc5;
+}
+
+.color__border--secondary--light--after::after {
+  border-color: #b2bbc5;
+}
+
+.color__border--secondary--dark {
+  border-color: #e2e5e9;
+}
+
+.color__border--tertiary {
+  border-color: #858f9a;
+}
+
+.widget-eventstandings .dynamic-table__head__row__cell {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.widget-eventstandings .dynamic-table__head__row__cell, .widget-eventstandings .dynamic-table__body__row__cell {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.widget-eventstandings .white-header {
+  text-align: center;
+}
+
+.dynamic-table__body__row__cell.imageparticipant-column .image-participant__participant {
+  color: #bfc0c1;
+}
+
+.dynamic-table--fixed .fixed-column--last:after {
+  display: none !important;
+}
+
+tbody .color__border {
+  border-color: #000000;
+  border: 0 none !important;
+}
+
+.widget-teamroster__squad__member,
+.widget-athleteprofile__info {
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+.widget-sportstandings .dynamic-table__head__row__cell,
+.widget-sportstandings__aligned-tables__fixed::after,
+.widget-sportstandings__aligned-tables .white-header::after {
+  background-color: #000000 !important;
+}
+
+.widget-sportstandings .dynamic-table__head__row__cell, .widget-sportstandings__aligned-tables__fixed::after, .widget-sportstandings__aligned-tables .white-header::after {
+  display: none !important;
+}
+
+.widget-sportstandings__switcher__event {
+  border: 0 none !important;
+  background: #000000 !important;
 }
 
 /*# sourceMappingURL=theme3.css.map */
