@@ -226,6 +226,8 @@ table thead.fixed-header,
   border-bottom: 0 !important;
 }
 
+/* GSW */
+
 .color__background--primary {
   background-color: #000000; 
 }
@@ -445,4 +447,10 @@ tbody .color__border {
 .widget-athleteprofile__info {
    background-color: #000;
    border: 1px solid #fff;
+}
+
+.widget-sportstandings .dynamic-table__head__row__cell, 
+.widget-sportstandings__aligned-tables__fixed::after,
+.widget-sportstandings__aligned-tables .white-header::after {
+  background-color: #000000 !important;
 }
