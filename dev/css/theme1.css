@@ -6,8 +6,8 @@ body {
 }
 
 .header-title {
-  background-color: #FF3802;
-  color: #ffffff;
+  background-color: #FF3802; 
+  color: #ffffff; // to be replaced by $text-color
   border: 0;
 }
 
@@ -144,14 +144,11 @@ table thead.fixed-header,
   padding-right: 10px !important;
 }
 
-/*
-.stat-bar-a90 .stat-wrapper.border-top, .stat-bar-a90 .stat-wrapper.border-top:first-child {
-    border-top: 1px solid #e3e3e7;
+.tab-wrapper.two-tabs, .tab-wrapper.three-tabs, .tab-wrapper.four-tabs {
+  border:  0 none !important;
 }
 
+.stat-bar-a90 .stat-wrapper.border-top, .stat-bar-a90 .stat-wrapper.border-top:first-child,
 .stats .stat-wrapper:first-child, .stat-pies .stat-wrapper:first-child {
-    border-bottom: 1px solid #e3e3e7;
+    border-top: 0 none !important;
 }
-*/
-
-/*# sourceMappingURL=theme1.css.map */
