@@ -1,5 +1,5 @@
 <?php
-    $css_base_url = "https://www.sportsmax.tv/statistics/css/";
+    $css_base_url = "https://mohieddinezarif.github.io/test.css.io/dev/css/";
     $css = $css_base_url + "theme1.css";
 	if(!empty($_GET['widgetId'])) {
 		$widgetId = $_GET['widgetId'];
