@@ -5,13 +5,15 @@ body {
   color: #ffffff;
 }
 
-.header-title {
+.header-title,
+.color__background--primary.header {
   /* to be replaced by $primary-color */
   background-color: #FF3802;
   border: 0;
 }
 
-.header-title h1 {
+.header-title h1,
+.color__background--primary.header {
   /* to be replaced by $text-color */
   color: #ffffff;
 }
