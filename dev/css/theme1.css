@@ -6,7 +6,7 @@ body {
 }
 
 .header-title {
-  background-color: #FF3802; to be replaced by $primary-color
+  background-color: #FF3802; // to be replaced by $primary-color
   color: #ffffff; // to be replaced by $text-color
   border: 0;
 }
@@ -26,7 +26,7 @@ table tr th {
 
 a.standard-button {
   background-color: #FF3802 !important; // to be replaced by $primary-color;
-  color: #FFFFFF !important; to be replaced by $text-color
+  color: #FFFFFF !important; // to be replaced by $text-color
   border: 0 none !important;
   border-radius: 30px !important;
   -moz-border-radius: 30px !important;
@@ -185,5 +185,18 @@ table thead.fixed-header,
 }
 .button-wrapper {
   background-color: #000000 !important;
+  border-bottom: 0 !important;
+}
+
+@media (min-width: 600px) {
+  .headtohead .one-half .team-form {
+      border-right: 0 !important;
+  }
+  .headtohead .one-half .standing {
+    border-left: 0 !important;
+  }
+}
+
+.team-form {
   border-bottom: 0 !important;
 }
