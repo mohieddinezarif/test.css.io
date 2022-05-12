@@ -71,10 +71,6 @@ table.zebra tr {
   background-color: #000000 !important;
 }
 
-table.zebra tr:nth-child(2n) {
-  background-color: #333333 !important;
-}
-
 .block-header {
   background: #404445 !important;
   color: #ffffff !important;
@@ -198,5 +194,9 @@ table thead.fixed-header,
 }
 
 .team-form {
+  border-bottom: 0 !important;
+}
+
+.details .select-wrapper {
   border-bottom: 0 !important;
 }
