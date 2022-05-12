@@ -28,6 +28,7 @@ table tr th {
 }
 
 select {
+  background-color: #000000;
   /* to be replaced by $primary-color */
   color: #FF3802 !important;
 }
