@@ -18,6 +18,11 @@ body {
   color: #ffee00;
 }
 
+.color__background--primary.header h2 {
+  /* to be replaced by $text-color */
+  color: #ffee00;
+}
+
 .lineup .list-items .list-item .coach {
   /* to be replaced by $primary-color */
   color: #f20d00;
