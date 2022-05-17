@@ -38,6 +38,7 @@ select {
   background-color: #000000;
   /* to be replaced by $primary-color */
   color: $primary-color !important;
+  border: 1px solid !important;
 }
 
 .phase-header {
