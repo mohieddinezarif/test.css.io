@@ -479,6 +479,10 @@ tbody .color__border {
   display: none !important;
 }
 
+.color__background--secondary {
+  background: #000000 !important;
+}
+
 .widget-sportstandings__switcher__event {
   border: 0 none !important;
   background: #000000 !important;
