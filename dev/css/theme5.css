@@ -34,11 +34,11 @@ table tr th {
   border-bottom: 0 !important;
 }
 
-select {
+select, select.dropdown__select {
   background-color: #000000;
   /* to be replaced by $primary-color */
   color: #d00027 !important;
-  border: 1px solid;
+  border: 1px solid !important;
 }
 
 .phase-header {
@@ -487,6 +487,15 @@ tbody .color__border {
 .widget-sportstandings__switcher__event {
   border: 0 none !important;
   background: #000000 !important;
+}
+
+.stats .stat-wrapper .stats-bar, .stat-pies .stat-wrapper .stats-bar {
+  background: #676767 !important;
+}
+
+.stats .stat-wrapper .stats-bar .stats-bar-filled, .stat-pies .stat-wrapper .stats-bar .stats-bar-filled {
+  /* to be replaced by $primary-color */
+  background: #d00027 !important;
 }
 
 /*# sourceMappingURL=theme5.css.map */
