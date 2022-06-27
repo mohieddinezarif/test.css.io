@@ -6,7 +6,8 @@ body {
 }
 
 .header-title,
-.color__background--primary.header {
+.color__background--primary.header,
+header .widget-matchdetail__header {
   /* to be replaced by $primary-color */
   background-color: $primary-color;
   border: 0;
@@ -490,11 +491,22 @@ tbody .color__border {
 }
 
 .stats .stat-wrapper .stats-bar, .stat-pies .stat-wrapper .stats-bar {
-    background: #676767 !important;
+  background: #676767 !important;
 }
-
 
 .stats .stat-wrapper .stats-bar .stats-bar-filled, .stat-pies .stat-wrapper .stats-bar .stats-bar-filled {
   /* to be replaced by $primary-color */
   background: $primary-color !important;
+}
+
+.matchdetail-person-statistics__statistics__table .dynamic-table__head__row__cell {
+  background-color: #000000 !important;
+}
+
+.matchdetail-person-statistics__aligned-tables__fixed::after {
+  display: none !important;
+}
+
+.matchdetail-person-statistics__statistics__table .dynamic-table__head__row__cell, .matchdetail-person-statistics__statistics__table .dynamic-table__body__row__cell {
+  background-color: #000000 !important;
 }
